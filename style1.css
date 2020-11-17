@@ -1,0 +1,39 @@
+h2 {
+    size: 2em;
+
+   }
+
+li{
+    list-style-image: url(./Images/bullet.gif) ;
+}
+p{
+    text-align: justify;
+}
+
+body{
+    background-color: #FFB9B9;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: chartreuse;
+}
+a:active{
+    color: crimson;
+}
+@media screen and (max-width: 1280px)
+{
+ p
+ {
+ color: red;
+ background-color: black;
+ font-size: 1.2em;
+ }
+} 
